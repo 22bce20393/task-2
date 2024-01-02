@@ -83,7 +83,6 @@ public class Main {
 
         Account userAccount = new Account(initialBalance);
         ATM atm = new ATM(userAccount);
-
         int option;
         do {
             atm.displayOptions();
